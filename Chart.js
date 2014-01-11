@@ -1050,7 +1050,6 @@ window.Chart = function(context, options){
           ctx.fillText(data[i].value, (b ? 1 : -1) * (w / 2 + config.scaleValuePaddingX), config.scaleFontSize / 2);
           ctx.restore();
         }
->>>>>>> b39c136368d4fc42335f0aa9cb19cc483c54b218
 				
 				if(config.segmentShowStroke){
 					ctx.lineWidth = config.segmentStrokeWidth;
